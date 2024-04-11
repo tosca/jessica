@@ -1,0 +1,244 @@
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	font-family: 'Open-sans', sans-serif;
+	font-size:18px;
+	line-height: 1.7rem;
+	color: #4e4a3d;
+}
+.font-2 {
+	font-family: 'Julius+Sans+One', sans-serif;
+}
+html {
+	min-height: 100%;
+	width: auto;
+}
+.top-banner {
+	background-color:#d19c96;
+	color:whitesmoke;
+	height: 3rem;
+}
+.top-contact a {
+	color:whitesmoke; 
+	
+}
+.header {
+	margin-top: 2.8rem;
+}
+.tan {
+	color:#ddae90;
+	color: #edb292;
+}
+.mauve {
+	color: #ab8495;
+	color: #bb94a4;
+	color:#d19c96;
+}
+.toupe {
+	color: #4e4a3d;
+	color: #696558;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+hr {
+	border-top: 2px solid #dc947a;
+	opacity: 1;
+}
+.header {
+	background-color:whitesmoke;
+	/*background-image: url("img/jesscolor.jpg");
+    background-position: top center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;*/	
+}
+/*.navbar-brand {
+	font-family: 'Cinzel', sans-serif; 
+	color: whitesmoke;
+}
+.navbar-brand a:hover, .nav-link a:hover {
+	    color:#bf9566;
+}
+.navbar a {
+	color: whitesmoke;
+}
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left:0;
+	filter: brightness(0.9);
+}
+.navbar-scrolled {
+	background-color: black;
+	box-shadow: 3px 10px rgba(0, 0, 0, 0.15)
+}
+.navbar {
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	transition: all 0.5s;
+}
+.navbar-brand h1 {
+	font-family: 'Cinzel', sans-serif; 
+	color: whitesmoke;
+}
+.navbar-nav .nav-link.active {
+	color: #dc947a;
+}
+.nav-links {
+	min-height: 200px;
+}
+/*.nav-link:focus, .nav-link:hover {
+    color: #68421dfe;
+}
+.dropdown-menu{
+	border-width:2px;
+	border-color:#dc947a;
+}
+/**** page section  ***/
+.temp-about {
+	background-color:#e2b292;
+	color: #696558;
+}
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+.page-wrap {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 100%;
+padding-top:15rem;
+}
+.page-section {
+	padding-top: 100px;
+	padding-bottom:50px;
+}
+.home-bg {
+    background-image: url("img/jesscolor.jpg");
+    background-position: center center;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.header, .nav-links {
+	font-family: 'Cinzel', sans-serif;
+	font-weight: 500;
+	letter-spacing: 4px;
+	text-align: center;
+}
+.home-statement {
+	padding: 5rem 3% 5rem;
+	font-weight: 400;
+	font-size: large;
+	background-color: #bf9566;
+}
+
+.specialize {
+	background-color: #ab8495;
+}
+.special-list {
+	border-width:5px;
+	font-family: 'Cinzel', sans-serif; 
+	color:whitesmoke;
+	background-color:#bf9566;
+	background-color:#edb292;
+}
+.bg-special {
+/*	background-color:#ab8495;*/
+	background-image: url("img/jesscolor.jpg");
+    background-position: center center;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.specialist{
+	color:#1b1404;
+	font-weight:bold;
+} 
+.about {
+	background-color: #4e4a3d;
+	color: whitesmoke;
+}
+.link-img {
+	width:60%;
+	text-align: center;
+}
+.section-title, .sub-heading {
+	font-family: 'Cinzel', sans-serif;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.sub-heading {
+	font-family: 'Cinzel', sans-serif;
+	font-weight: 700;
+	color: #817a6a;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.sub-title {
+	font-family: 'Julius Sans One','Open Sans',sans-serif ;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+/***** contact *****/
+.footer .copy {
+	padding: 2rem 0;
+	color:#817a6a;
+	background-color:#bb94a4;
+}
+.contact-bg {
+	background-color: #bb94a4;
+	  background-position: center center;
+   background-repeat: no-repeat; 
+   background-size: cover;
+}
+.contact-statement {
+	font-size: large;
+	color: white;
+}
+/************a hover *****/
+a { 
+	color:#4e4a3d;
+	text-decoration: none;
+}
+a:hover {
+	color: #222020;
+	text-decoration: none;
+}
+ /*Small devices (landscape phones, 576px and up)
+@media screen and(min-width: 576px) { 
+		
+}*/
+ /* Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+		.navbar-brand{
+			max-width: 40%;
+		}
+		.page-section{
+			padding-top: 240px;
+		} 
+		.nav-pills .nav-link {
+			font-size: large;
+		}		
+ }*/
+ /* Large devices (desktops, 992px and up)
+ @media (min-width: 992px){	
+}*/
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.home-bg, .navbar {
+		background-attachment: fixed;	
+	}
+	.home-statement {
+	padding: 20rem 7% 7rem;
+	} 
+	.contact-bg {
+		background-attachment: fixed;
+	}
+}

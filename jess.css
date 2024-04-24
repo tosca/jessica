@@ -14,13 +14,11 @@ html {
 	width: auto;
 }
 .top-banner {
-	background-color:#d19c96;
 	color:whitesmoke;
 	height: 3rem;
 }
 .top-contact a {
-	color:whitesmoke; 
-	
+	color:#867f6f; 	
 }
 .header {
 	margin-top: 2.8rem;

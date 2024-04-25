@@ -105,13 +105,11 @@ hr {
 	background-color:#e2b292;
 	color: #696558;
 }
-.container-fluid{
-	padding-left: 0;
-	padding-right: 0;
-}
+
 .page-wrap {
 	position: relative;
 	padding-top:10rem;
+	margin: auto;
 }
 .page-section {
 	padding-top: 100px;

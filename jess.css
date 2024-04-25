@@ -15,15 +15,18 @@ html {
 	width: auto;
 }
 .top-banner {
-	background-color:#f4e3cf;
+	background-color:#dee2e6;
 	color:whitesmoke;
 	height: 3rem;
 }
 .top-contact a {
-	color:#867f6f; 	
+	color:#696558; 	
 }
 .header {
+
 	margin-top: 2.8rem;
+	background-color:#d19c96;
+	background-color:#d3abbc;
 }
 .tan {
 	color:#ddae90;
@@ -46,14 +49,6 @@ img {
 hr {
 	border-top: 2px solid #dc947a;
 	opacity: 1;
-}
-.header {
-	background-color:whitesmoke;
-	/*background-image: url("img/jesscolor.jpg");
-    background-position: top center;
-	background-repeat: no-repeat;
-    background-size: cover;
-	background-attachment: fixed;*/	
 }
 /*.navbar-brand {
 	font-family: 'Cinzel', sans-serif; 
@@ -121,12 +116,6 @@ hr {
 	background-repeat: no-repeat;
     background-size: cover;
 }
-.header, .nav-links {
-	font-family: 'Cinzel', sans-serif;
-	font-weight: 500;
-	letter-spacing: 4px;
-	text-align: center;
-}
 .home-statement {
 	padding: 5rem 3% 5rem;
 	font-weight: 400;
@@ -135,11 +124,9 @@ hr {
 }
 
 .specialize {
-	background-color: #ab8495;
+	background-color: #dee2e6;
 }
 .special-list {
-	border-width:5px;
-	font-family: 'Cinzel', sans-serif; 
 	color:whitesmoke;
 	background-color:#bf9566;
 	background-color:#edb292;
@@ -152,8 +139,7 @@ hr {
     background-size: cover;
 }
 .specialist{
-	color:#1b1404;
-	font-weight:bold;
+	color:#f8f9fa;
 } 
 .about {
 	background-color: #4e4a3d;
@@ -164,13 +150,13 @@ hr {
 	text-align: center;
 }
 .section-title, .sub-heading {
-	font-family: 'Cinzel', sans-serif;
+	font-family: 'Julius Sans One','Open Sans',sans-serif ;
 	font-weight: 700;
 	letter-spacing: 2px;
 	text-align: center;
 }
 .sub-heading {
-	font-family: 'Cinzel', sans-serif;
+	font-family: 'Julius Sans One','Open Sans',sans-serif ;
 	font-weight: 700;
 	color: #817a6a;
 	letter-spacing: 2px;
@@ -188,7 +174,7 @@ hr {
 	background-color:#bb94a4;
 }
 .contact-bg {
-	background-color: #bb94a4;
+	background-color: #edb292;
 	  background-position: center center;
    background-repeat: no-repeat; 
    background-size: cover;

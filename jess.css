@@ -140,6 +140,13 @@ hr {
 	width:60%;
 	text-align: center;
 }
+.section-title {
+	font-family: 'Julius Sans One','Open Sans',sans-serif ;
+	font-weight: 700;
+	color: #817a6a;
+	letter-spacing: 2px;
+	text-align: center;
+}
 .sub-heading {
 	font-family: 'Julius Sans One','Open Sans',sans-serif ;
 	font-weight: 700;
@@ -159,13 +166,9 @@ hr {
 	background-color:#bb94a4;
 }
 .contact-bg {
-	background-color: #edb292;
-	  background-position: center center;
-   background-repeat: no-repeat; 
-   background-size: cover;
+	background-color: #d19c96;
 }
 .contact-statement {
-	font-size: large;
 	color: white;
 }
 /************a hover *****/

@@ -1,7 +1,7 @@
 body {
 	
-	font-family: 'Open-sans', sans-serif;
-	font-size:18px;
+	font-family: 'Julius+Sans+One', sans-serif;
+	font-size:17px;
 	line-height: 1.7rem;
 	color: #4e4a3d;
 	overflow-x: hidden;
@@ -10,23 +10,19 @@ body {
 .font-2 {
 	font-family: 'Julius+Sans+One', sans-serif;
 }
-html {
+/*html {
 	min-height: 100%;
 	width: auto;
-}
+}*/
 .top-banner {
 	background-color:#dee2e6;
 	color:whitesmoke;
-	height: 3rem;
-}
-.top-contact a {
-	color:#696558; 	
 }
 .header {
-
-	margin-top: 2.8rem;
-	background-color:#d19c96;
-	background-color:#d3abbc;
+	background-color:#f4bba7;
+}
+.peach { 
+	color: #f4bba7;
 }
 .tan {
 	color:#ddae90;
@@ -108,7 +104,7 @@ hr {
 }
 .page-section {
 	padding-top: 100px;
-	padding-bottom:50px;
+	padding-bottom:20px;
 }
 .home-bg {
     background-image: url("img/jesscolor.jpg");

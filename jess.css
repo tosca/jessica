@@ -5,15 +5,10 @@ body {
 	line-height: 1.7rem;
 	color: #4e4a3d;
 	overflow-x: hidden;
-
 }
 .font-2 {
 	font-family: 'Julius+Sans+One', sans-serif;
 }
-/*html {
-	min-height: 100%;
-	width: auto;
-}*/
 .top-banner {
 	background-color:#dee2e6;
 	color:whitesmoke;
@@ -145,12 +140,6 @@ hr {
 	width:60%;
 	text-align: center;
 }
-.section-title, .sub-heading {
-	font-family: 'Julius Sans One','Open Sans',sans-serif ;
-	font-weight: 700;
-	letter-spacing: 2px;
-	text-align: center;
-}
 .sub-heading {
 	font-family: 'Julius Sans One','Open Sans',sans-serif ;
 	font-weight: 700;
@@ -207,7 +196,7 @@ a:hover {
  /* Large devices (desktops, 992px and up)
  @media (min-width: 992px){	
 }*/
-/* X-Large devices (large desktops, 1200px and up)*/
+/* X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
 	.home-bg, .navbar {
 		background-attachment: fixed;	
@@ -218,4 +207,4 @@ a:hover {
 	.contact-bg {
 		background-attachment: fixed;
 	}
-}
+*/

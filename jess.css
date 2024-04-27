@@ -1,11 +1,17 @@
 body {
-	
-	font-family: 'Julius+Sans+One', sans-serif;
-	font-size:17px;
-	line-height: 1.7rem;
-	color: #4e4a3d;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400 ;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 	overflow-x: hidden;
 }
+h1, h2, h3, h4, h5 {
+font-family: 'Julius+Sans+One', sans-serif;
+	line-height: 1.7rem;
+}
+
 .font-2 {
 	font-family: 'Julius+Sans+One', sans-serif;
 }

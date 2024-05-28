@@ -1,41 +1,37 @@
+html,body {
+	box-sizing: border-box;
+}
 body {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400 ;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+   font-family: "Open Sans", sans-serif;
+ font-size: 17px;  
+   font-weight: 400;
+   color: #000;
 	overflow-x: hidden;
 }
-h1, h2, h3, h4, h5 {
-font-family: 'Julius+Sans+One', sans-serif;
-	line-height: 1.7rem;
-}
-
-.font-2 {
-	font-family: 'Julius+Sans+One', sans-serif;
-}
+.h1, h1, .h2, h2, h3, .h3, h4 .h4, h5 .h5  {
+	font-family: "Cinzel", san-serif;
+	font-weight: 500;
+	font-style: normal;
+  } 
 .top-banner {
-	background-color:#dee2e6;
-	color:whitesmoke;
+	background-color:#524341;		
 }
-.header {
-	background-color:#f4bba7;
+.top-banner a {
+color: whitesmoke;
+}
+.figure-text {
+	font-family: "Cinzel", san-serif;
 }
 .peach { 
 	color: #f4bba7;
 }
 .tan {
-	color:#ddae90;
 	color: #edb292;
 }
 .mauve {
-	color: #ab8495;
-	color: #bb94a4;
 	color:#d19c96;
 }
 .toupe {
-	color: #4e4a3d;
 	color: #696558;
 }
 img {
@@ -44,86 +40,74 @@ img {
 	height: auto;
 }
 hr {
-	border-top: 2px solid #dc947a;
+	border-top: 2px solid #696558;
 	opacity: 1;
 }
-/*.navbar-brand {
-	font-family: 'Cinzel', sans-serif; 
-	color: whitesmoke;
+/******navbar ******/
+.navbar {	
+	margin-top: 27px;
+	height: 120px;
+	background-color: #e9ba9c;	
 }
-.navbar-brand a:hover, .nav-link a:hover {
-	    color:#bf9566;
+.navbar-brand {
+	color:#4e4a3d;
+	font-family: "Cinzel", san-serif;
+	font-weight: 500;	
 }
-.navbar a {
-	color: whitesmoke;
-}
-	width: 100vw;
-	height: 100vh;
-	object-fit: cover;
-	position: absolute;
-	top: 0;
-	left:0;
-	filter: brightness(0.9);
-}
-.navbar-scrolled {
-	background-color: black;
-	box-shadow: 3px 10px rgba(0, 0, 0, 0.15)
-}
-.navbar {
-	height: 100vh;
-	position: absolute;
-	top: 0;
-	transition: all 0.5s;
-}
-.navbar-brand h1 {
-	font-family: 'Cinzel', sans-serif; 
-	color: whitesmoke;
-}
-.navbar-nav .nav-link.active {
-	color: #dc947a;
-}
-.nav-links {
-	min-height: 200px;
-}
-/*.nav-link:focus, .nav-link:hover {
-    color: #68421dfe;
+.nav-link a:focus, .nav-link a:hover, .nav-link a:active {   
+	color:#000;
+	font-family: "Cinzel", san-serif;	
 }
 .dropdown-menu{
 	border-width:2px;
 	border-color:#dc947a;
 }
+ .nav-item .nav-link.active {
+	cursor: pointer;
+	color: whitesmoke;;
+}
+.navbar-toggler {
+	cursor: pointer;
+}
+/****** home page ****/
+.home-statement {
+	margin: 0 10%;
+	padding: 5rem 3% 5rem;
+	font-weight: 400;
+	font-size: large;
+	background-color: #120f3570;
+}
 /**** page section  ***/
+
+hr {
+	border-top: 2px solid #28246a;
+}
 .temp-about {
 	background-color:#e2b292;
 	color: #696558;
 }
-
 .page-wrap {
 	position: relative;
-	padding-top:10rem;
-	margin: auto;
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 .page-section {
-	padding-top: 100px;
-	padding-bottom:20px;
+	padding-top: 210px;
 }
 .home-bg {
-    background-image: url("img/jesscolor.jpg");
-    background-position: center center;
+    background-image: url("img/flower-path-top.jpg");
+    background-position: center top;
 	background-repeat: no-repeat;
     background-size: cover;
 }
 .home-statement {
-	padding: 5rem 3% 5rem;
+	margin: 0 10%;
+	padding: 3rem 3% 3rem;
 	font-weight: 400;
 	font-size: large;
-	background-color: #bf9566;
-}
-.special-bg {
-	background-color:#dee2e6;
-}
-.specialize {
-	background-color: #dee2e6;
+	background-color: #f4bba76e;
 }
 .special-list {
 	color:whitesmoke;
@@ -131,15 +115,12 @@ hr {
 	background-color:#edb292;
 }
 .bg-special {
-/*	background-color:#ab8495;*/
 	background-image: url("img/jesscolor.jpg");
     background-position: center center;
 	background-repeat: no-repeat;
     background-size: cover;
 }
-.specialist{
-	color:#f8f9fa;
-} 
+
 .about {
 	background-color: #4e4a3d;
 	color: whitesmoke;
@@ -151,71 +132,37 @@ hr {
 .section-title {
 	font-family: 'Julius Sans One','Open Sans',sans-serif ;
 	font-weight: 700;
-	color: #817a6a;
 	letter-spacing: 2px;
 	text-align: center;
 }
 .sub-heading {
 	font-family: 'Julius Sans One','Open Sans',sans-serif ;
 	font-weight: 700;
-	color: #817a6a;
 	letter-spacing: 2px;
 	text-align: center;
 }
-.sub-title {
+.sub-title, .nav-link {
 	font-family: 'Julius Sans One','Open Sans',sans-serif ;
 	text-transform: uppercase;
+	font-weight: 700;
 	letter-spacing: 3px;
 }
-/***** contact *****/
-.footer .copy {
-	padding: 2rem 0;
-	color:#817a6a;
-	background-color:#bb94a4;
-}
-.contact-bg {
-	background-color: #d19c96;
-}
-.contact-statement {
-	color: white;
-}
-/************a hover *****/
+
 a { 
-	color:#4e4a3d;
 	text-decoration: none;
 }
-a:hover {
+a:hover, a:active {
 	color: #222020;
 	text-decoration: none;
 }
- /*Small devices (landscape phones, 576px and up)
-@media screen and(min-width: 576px) { 
-		
-}*/
- /* Medium devices (tablets, 768px and up)
+
 @media (min-width: 768px) {
-		.navbar-brand{
-			max-width: 40%;
-		}
-		.page-section{
-			padding-top: 240px;
-		} 
-		.nav-pills .nav-link {
-			font-size: large;
-		}		
- }*/
- /* Large devices (desktops, 992px and up)
- @media (min-width: 992px){	
-}*/
-/* X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-	.home-bg, .navbar {
-		background-attachment: fixed;	
+	.navbar-brand
+	{
+		position: absolute;
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;	
 	}
-	.home-statement {
-	padding: 20rem 7% 7rem;
-	} 
-	.contact-bg {
-		background-attachment: fixed;
-	}
-*/
+}

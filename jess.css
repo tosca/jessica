@@ -45,7 +45,7 @@ hr {
 }
 /******navbar ******/
 .navbar {	
-	margin-top: 26px;
+	margin-top: 25px;
 	background-color: #e9ba9c;	
 }
 .navbar-brand {
@@ -155,16 +155,16 @@ a:hover, a:active {
 	text-decoration: none;
 }
 
-@media (min-width: 567px) {
+/*@media (min-width: 567px) {
 	.navbar-brand
 	{
-		position: absolute;
-		top: 5px;
-		bottom: 20px;
+		position: relative;
+		top: 20%;
+		bottom: 7px;
         width: auto;
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
-	}
+	}*
 	
-}
+}*/

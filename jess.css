@@ -19,6 +19,9 @@ body {
 .top-banner a {
 color: whitesmoke;
 }
+.top-banner a:hover {
+	color:#bf9566;
+}
 .figure-text {
 	font-family: "Cinzel", san-serif;
 }
@@ -150,6 +153,7 @@ hr {
 a { 
 	text-decoration: none;
 }
+
 a:hover, a:active {
 	color: #222020;
 	text-decoration: none;
